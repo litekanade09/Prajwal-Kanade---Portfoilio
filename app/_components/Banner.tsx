@@ -1,7 +1,6 @@
 'use client';
 import ArrowAnimation from '@/components/ArrowAnimation';
 import Button from '@/components/Button';
-import { GENERAL_INFO } from '@/lib/data';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
@@ -12,7 +11,6 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 const Banner = () => {
     const containerRef = React.useRef<HTMLDivElement>(null);
 
-    // move the content a little up on scroll
     useGSAP(
         () => {
             const tl = gsap.timeline({
