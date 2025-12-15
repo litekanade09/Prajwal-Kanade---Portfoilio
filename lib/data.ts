@@ -2,6 +2,12 @@ import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
     email: 'prajwalkanade648@gmail.com',
+
+    // emailSubject: "Let's collaborate",
+    // emailBody: 'Hi Tajmirul, I am reaching out to you because...',
+
+    // oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
+    // upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
 };
 
 export const SOCIAL_LINKS = [
@@ -37,6 +43,11 @@ export const MY_STACK = {
             name: 'Redux',
             icon: '/logo/redux.png',
         },
+        
+        // {
+        //     name: 'GSAP',
+        //     icon: '/logo/gsap.png',
+        // },
         {
             name: 'Framer Motion',
             icon: '/logo/framer-motion.png',
@@ -55,6 +66,10 @@ export const MY_STACK = {
             name: 'Node.js',
             icon: '/logo/node.png',
         },
+        // {
+        //     name: 'NestJS',
+        //     icon: '/logo/nest.svg',
+        // },
         {
             name: 'Express.js',
             icon: '/logo/express.png',
@@ -69,10 +84,18 @@ export const MY_STACK = {
             name: 'MySQL',
             icon: '/logo/mysql.svg',
         },
+        // {
+        //     name: 'PostgreSQL',
+        //     icon: '/logo/postgreSQL.png',
+        // },
         {
             name: 'MongoDB',
             icon: '/logo/mongodb.svg',
         },
+        // {
+        //     name: 'Prisma',
+        //     icon: '/logo/prisma.png',
+        // },
     ],
     tools: [
         {
@@ -94,6 +117,7 @@ export const PROJECTS: IProject[] = [
     {
         title: 'Real Time Sign Language Translator',
         slug: 'real-time-sign-language-translator', // Original slug from the first placeholder project
+        // liveUrl: 'https://electroev.co.uk/', // Placeholder: Keep original URL link
         sourceCode: 'https://github.com/litekanade09/Real-Time-Sign-Language-Translator', // ADDED: Placeholder source code link
         year: 2025,
         description: `
@@ -126,6 +150,7 @@ export const PROJECTS: IProject[] = [
         longThumbnail: '/projects/long/rtslt.png', // Placeholder: Keep original photo
         images: [
             '/projects/images/rtslt.png', // Placeholder: Keep original photo
+             // Placeholder: Keep original photo
         ],
     },
     {
@@ -145,7 +170,9 @@ export const PROJECTS: IProject[] = [
             '/projects/images/NutriAi1.png', // Placeholder: Keep original photo
             '/projects/images/Nutriai2.png', // Placeholder: Keep original photo
             '/projects/images/Nutriai3.png', // Placeholder: Keep original photo
+             // Placeholder: Keep original photo
         ],
+        // liveUrl: 'https://demo.epikcart.siphertech.com/', // Placeholder: Keep original URL link
         year: 2025,
         description: `
             An AI-powered full-stack application that generates personalized diet plans using a Random Forest machine learning model. The platform manages user data and subscription tracking securely.
@@ -187,6 +214,7 @@ export const PROJECTS: IProject[] = [
             '/projects/images/Edutrack2.png', // Placeholder: Keep original photo
             '/projects/images/Edutrack3.png', // Placeholder: Keep original photo
         ],
+        // liveUrl: 'https://resume-roaster.vercel.app/', // Placeholder: Keep original URL link
         year: 2025,
         description: `
       A full-stack application for managing student data, featuring robust search, filter, and sorting capabilities for large datasets. It includes secure user authentication and role-based access control.
@@ -226,7 +254,10 @@ export const PROJECTS: IProject[] = [
         longThumbnail: '/projects/long/Air-Quality.png', // Placeholder: Keep original photo
         images: [
             '/projects/images/Air-Quality.png', // Placeholder: Keep original photo
+            // '/projects/images/property-pro-2.png', // Placeholder: Keep original photo
+            // '/projects/images/property-pro-3.png', // Placeholder: Keep original photo
         ],
+        // liveUrl: 'https://demo.propertypro.siphertech.com/', // Placeholder: Keep original URL link
         year: 2024,
         description:
             `Developed an AI-powered Air Quality Index (AQI) Prediction System utilizing environmental dataset inputs. The system uses a machine learning approach to provide real-time AQI forecasts, demonstrating proficiency in data science pipeline development and deployment.

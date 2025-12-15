@@ -54,7 +54,11 @@ const AboutMe = () => {
     return (
         <section className="pb-section" id="about-me">
             <div className="container" ref={container}>
-                
+                {/* <h2 className="text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade">
+                    I believe in a user centered design approach, ensuring that
+                    every project I work on is tailored to meet the specific
+                    needs of its users.
+                </h2> */}
 
                 <p className="pb-3 border-b text-muted-foreground slide-up-and-fade">
                     This is me.

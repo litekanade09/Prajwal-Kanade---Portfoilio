@@ -39,6 +39,7 @@ const ProjectDetails = ({ project }: Props) => {
         { scope: containerRef },
     );
 
+    // blur info div and make it smaller on scroll
     useGSAP(
         () => {
             if (window.innerWidth < 992) return;
@@ -47,6 +48,7 @@ const ProjectDetails = ({ project }: Props) => {
                 filter: 'blur(3px)',
                 autoAlpha: 0,
                 scale: 0.9,
+                // position: 'sticky',
                 scrollTrigger: {
                     trigger: '#info',
                     start: 'bottom bottom',
@@ -60,6 +62,7 @@ const ProjectDetails = ({ project }: Props) => {
         { scope: containerRef },
     );
 
+    // parallax effect on images
     useGSAP(
         () => {
             gsap.utils
@@ -73,6 +76,7 @@ const ProjectDetails = ({ project }: Props) => {
                             start: () => (i ? 'top bottom' : 'top 50%'),
                             end: 'bottom top',
                             scrub: true,
+                            // invalidateOnRefresh: true, // to make it responsive
                         },
                     });
                 });
@@ -115,6 +119,16 @@ const ProjectDetails = ({ project }: Props) => {
                                         <Github size={30} />
                                     </a>
                                 )}
+                                {/* {project.liveUrl && (
+                                    <a
+                                        href={project.liveUrl}
+                                        target="_blank"
+                                        rel="noreferrer noopener"
+                                        className="hover:text-primary"
+                                    >
+                                        <ExternalLink size={30} />
+                                    </a>
+                                )} */}
                             </div>
                         </div>
 
@@ -140,9 +154,10 @@ const ProjectDetails = ({ project }: Props) => {
                                     Description
                                 </p>
 
-                            <div className="text-lg markdown-text"> 
-                                {parse(project.description)}
-                            </div>
+                                {/* 💡 Adjusted classes: Removed prose-xl since you likely control prose size globally */}
+                                <div className="text-lg markdown-text"> 
+                                    {parse(project.description)}
+                                </div>
                             </div>
                             {project.role && (
                                 <div className="fade-in-later">
@@ -150,6 +165,8 @@ const ProjectDetails = ({ project }: Props) => {
                                         My Role
                                     </p>
 
+                                    {/* 💡 Adjusted classes: Removed outer div wrapping parse(project.role) 
+                                         to prevent unwanted spacing, but kept the text-lg class on the container div */}
                                     <div className="text-lg markdown-text">
                                         {parse(project.role)}
                                     </div>

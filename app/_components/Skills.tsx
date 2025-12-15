@@ -19,6 +19,7 @@ gsap.registerPlugin(ScrollTrigger, useGSAP);
 const Skills = () => {
     const containerRef = useRef<HTMLDivElement>(null);
 
+    // Existing: Slide-up animation for titles and initial logo appearance
     useGSAP(
         () => {
             const slideUpEl =
@@ -45,18 +46,21 @@ const Skills = () => {
         { scope: containerRef },
     );
 
+    // NEW: Animation for the logos - subtle floating and rotation
     useGSAP(
         () => {
+            // Target the Image element inside the new skill-logo-item class
             gsap.to('.skill-logo-item img', {
-                rotation: 360,
-                duration: 20,
-                repeat: -1,
-                ease: 'linear',
+                rotation: 360, // Rotate 360 degrees
+                duration: 20, // Duration of one full rotation
+                repeat: -1, // Repeat infinitely
+                ease: 'linear', // Linear movement for smooth continuous spin
+                // Ensure it's active only when the main section is visible
                 scrollTrigger: {
                     trigger: containerRef.current,
-                    start: 'top 80%',
-                    end: 'bottom 20%',
-                    toggleActions: 'play pause resume pause',
+                    start: 'top 80%', // Start the animation when the section enters view
+                    end: 'bottom 20%', // Stop when the section leaves view
+                    toggleActions: 'play pause resume pause', // Control playback based on scroll
                 },
             });
         },
@@ -64,6 +68,7 @@ const Skills = () => {
     );
 
 
+    // Existing: Fade and move out on scroll
     useGSAP(
         () => {
             const tl = gsap.timeline({
@@ -100,6 +105,7 @@ const Skills = () => {
                             <div className="sm:col-span-7 flex gap-x-11 gap-y-9 flex-wrap">
                                 {value.map((item) => (
                                     <div
+                                        // Added 'skill-logo-item' to apply the new rotation animation
                                         className="slide-up skill-logo-item flex gap-3.5 items-center leading-none"
                                         key={item.name}
                                     >

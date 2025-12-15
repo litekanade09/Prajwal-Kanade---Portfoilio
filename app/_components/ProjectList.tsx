@@ -20,8 +20,11 @@ const ProjectList = () => {
         PROJECTS[0].slug,
     );
 
+    // update imageRef.current href based on the cursor hover position
+    // also update image position
     useGSAP(
         (context, contextSafe) => {
+            // show image on hover
             if (window.innerWidth < 768) {
                 setSelectedProject(null);
                 return;
@@ -42,6 +45,7 @@ const ProjectList = () => {
                     imageContainer.current.getBoundingClientRect();
                 const offsetTop = e.clientY - containerRect.y;
 
+                // if cursor is outside the container, hide the image
                 if (
                     containerRect.y > e.clientY ||
                     containerRect.bottom < e.clientY ||

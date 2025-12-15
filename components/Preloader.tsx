@@ -60,6 +60,7 @@ const Preloader = () => {
                 <span className="inline-block translate-y-full">J</span>
                 <span className="inline-block translate-y-full">W</span>
                 <span className="inline-block translate-y-full">A</span>
+                {/* <span className="inline-block translate-y-full">U</span> */}
                 <span className="inline-block translate-y-full">L</span>
             </p>
         </div>
