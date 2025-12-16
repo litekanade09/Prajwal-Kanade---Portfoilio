@@ -125,18 +125,18 @@ export const PROJECTS: IProject[] = [
       
       <br/> <br/> Key Features:
       <ul>
-        <li>📹 Real-Time Processing: Developed backend APIs to process live video streams and deliver real-time gesture predictions.</li>
-        <li>🧠 ML Integration: Integrated OpenCV inference with server-side and frontend components for low-latency detection.</li>
-        <li>📈 Reliability: Implemented dynamic result handling, improving response reliability by 20%.</li>
-        <li>📱 UX: Optimized UI for cross-device real-time support, ensuring a seamless user experience.</li>
+        <li> Real-Time Processing: Developed backend APIs to process live video streams and deliver real-time gesture predictions.</li>
+        <li> ML Integration: Integrated OpenCV inference with server-side and frontend components for low-latency detection.</li>
+        <li> Reliability: Implemented dynamic result handling, improving response reliability by 20%.</li>
+        <li> UX: Optimized UI for cross-device real-time support, ensuring a seamless user experience.</li>
       </ul>`,
         role: `
       Full-Stack Developer
       <ul>
-        <li>✅ Backend: Developed and optimized APIs for fast processing of live video streams.</li>
-        <li>🧠 Integration: Handled the integration of OpenCV inference with server-side endpoints.</li>
-        <li>🎨 Frontend: Built responsive React.js UI components for the live video feed and dynamic results.</li>
-        <li>⚡ Performance: Optimized backend and UI performance for cross-device compatibility.</li>
+        <li> Backend: Developed and optimized APIs for fast processing of live video streams.</li>
+        <li> Integration: Handled the integration of OpenCV inference with server-side endpoints.</li>
+        <li> Frontend: Built responsive React.js UI components for the live video feed and dynamic results.</li>
+        <li> Performance: Optimized backend and UI performance for cross-device compatibility.</li>
       </ul>`,
         techStack: [
             'React.js',
@@ -179,18 +179,18 @@ export const PROJECTS: IProject[] = [
             
             <br/> <br/> Key Features:
             <ul>
-                <li>🧠 AI Planning: Generates personalized diet plans based on user budget and goals.</li>
-                <li>🔗 API Integration: Integrated Random Forest model outputs via Express.js endpoints for dynamic plan rendering.</li>
-                <li>💾 Data Security: Managed a MongoDB database for secure storage of 70+ user entries and subscription tracking.</li>
-                <li>📱 Responsive Design: Designed a responsive UI to display personalized diet plans effectively.</li>
+                <li> AI Planning: Generates personalized diet plans based on user budget and goals.</li>
+                <li> API Integration: Integrated Random Forest model outputs via Express.js endpoints for dynamic plan rendering.</li>
+                <li> Data Security: Managed a MongoDB database for secure storage of 70+ user entries and subscription tracking.</li>
+                <li> Responsive Design: Designed a responsive UI to display personalized diet plans effectively.</li>
             </ul>`,
         role: `
       Full-Stack Developer
       <ul>
-        <li>✅ Backend: Developed APIs to generate and serve personalized diet plans.</li>
-        <li>💾 Database: Managed MongoDB for secure data storage and subscription tracking.</li>
-        <li>🧠 Integration: Integrated the Random Forest model with Express.js backend.</li>
-        <li>🎨 Frontend: Built the React.js UI and ensured responsiveness across devices.</li>
+        <li> Backend: Developed APIs to generate and serve personalized diet plans.</li>
+        <li> Database: Managed MongoDB for secure data storage and subscription tracking.</li>
+        <li> Integration: Integrated the Random Forest model with Express.js backend.</li>
+        <li> Frontend: Built the React.js UI and ensured responsiveness across devices.</li>
       </ul>`,
     },
     {
@@ -221,19 +221,19 @@ export const PROJECTS: IProject[] = [
       
       <br/> <br/> Key Features:
       <ul>
-        <li>📊 Data Management: Advanced search, filter, and sorting operations for student records.</li>
-        <li>🔐 Security: Implemented secure authentication and role-based access using JWT and bcrypt.</li>
-        <li>🚀 Performance: Optimized queries and database schemas for low-latency handling of large datasets.</li>
-        <li>📱 UI/UX: Developed interactive and reusable React.js UI components for tables and dashboards.</li>
+        <li> Data Management: Advanced search, filter, and sorting operations for student records.</li>
+        <li> Security: Implemented secure authentication and role-based access using JWT and bcrypt.</li>
+        <li> Performance: Optimized queries and database schemas for low-latency handling of large datasets.</li>
+        <li> UI/UX: Developed interactive and reusable React.js UI components for tables and dashboards.</li>
       </ul><br/>
       `,
         role: `
       Full-Stack Developer
       <ul>
-        <li>✅ Backend: Developed RESTful APIs for all student data management operations.</li>
-        <li>💾 Database: Designed MySQL schemas and optimized queries with indexes and aggregation pipelines.</li>
-        <li>🎨 Frontend: Built the React.js UI with a focus on scalability and responsiveness.</li>
-        <li>🔗 Integration: Integrated Node.js APIs for dynamic data rendering.</li>
+        <li> Backend: Developed RESTful APIs for all student data management operations.</li>
+        <li> Database: Designed MySQL schemas and optimized queries with indexes and aggregation pipelines.</li>
+        <li> Frontend: Built the React.js UI with a focus on scalability and responsiveness.</li>
+        <li> Integration: Integrated Node.js APIs for dynamic data rendering.</li>
       </ul>
       `,
     },
@@ -264,18 +264,18 @@ export const PROJECTS: IProject[] = [
             
             <br/> <br/> Key Features:
             <ul>
-                <li>🧠 AI Model: Core prediction logic built using the XGBoost algorithm for high accuracy.</li>
-                <li>📊 Data Processing: Used Pandas and Scikit-learn for efficient data preprocessing, feature engineering, and model training on environmental data.</li>
-                <li>🌐 Deployment: Deployed the prediction interface using Streamlit for easy user interaction and visualization.</li>
-                <li>📈 Visualization: Integrated Matplotlib for visualizing prediction results and data patterns.</li>
+                <li> AI Model: Core prediction logic built using the XGBoost algorithm for high accuracy.</li>
+                <li> Data Processing: Used Pandas and Scikit-learn for efficient data preprocessing, feature engineering, and model training on environmental data.</li>
+                <li> Deployment: Deployed the prediction interface using Streamlit for easy user interaction and visualization.</li>
+                <li> Visualization: Integrated Matplotlib for visualizing prediction results and data patterns.</li>
             </ul>`,
         role: `
       Data Science / ML Developer
       <ul>
-        <li>✅ Model Development: Trained and fine-tuned the XGBoost model for accurate AQI prediction.</li>
-        <li>💻 Data Engineering: Managed the entire data pipeline from cleaning raw environmental data to feature selection using Pandas and Scikit-learn.</li>
-        <li>🚀 Deployment: Built and hosted the interactive prediction web application using Streamlit.</li>
-        <li>🔬 Analysis: Performed exploratory data analysis (EDA) and model performance evaluation.</li>
+        <li> Model Development: Trained and fine-tuned the XGBoost model for accurate AQI prediction.</li>
+        <li> Data Engineering: Managed the entire data pipeline from cleaning raw environmental data to feature selection using Pandas and Scikit-learn.</li>
+        <li> Deployment: Built and hosted the interactive prediction web application using Streamlit.</li>
+        <li> Analysis: Performed exploratory data analysis (EDA) and model performance evaluation.</li>
       </ul>`,
     },
 ];

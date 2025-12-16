@@ -73,7 +73,7 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I&apos;m a passionate and versatile Full-Stack Developer 
+                                passionate and versatile Full-Stack Developer 
                                 with hands-on experience in building scalable, secure, 
                                 and user-centric web applications using modern technologies. 
                                 I specialize in server-side development and frontend architecture .

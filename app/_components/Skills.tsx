@@ -106,7 +106,7 @@ const Skills = () => {
                                 {value.map((item) => (
                                     <div
                                         // Added 'skill-logo-item' to apply the new rotation animation
-                                        className="slide-up skill-logo-item flex gap-3.5 items-center leading-none"
+                                        className="slide-up  flex gap-3.5 items-center leading-none"
                                         key={item.name}
                                     >
                                         <div>
